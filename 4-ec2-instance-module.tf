@@ -7,7 +7,7 @@ module "ec2-instance" {
 
   ami                    = "ami-03fe4ab7cbc8fe59d"
   instance_type          = "t2.micro"
-  key_name               = "Prakash_Test"
+  key_name               = "Prakash Test"
   monitoring             = true
   #vpc_security_group_ids = [${aws_security_group.lc_security_group.id}]
   subnet_id              = aws_subnet.main.id
