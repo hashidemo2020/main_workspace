@@ -11,3 +11,10 @@ variable "default_tags" {
   description = "Tags to be applied to resources"
   type        = map(string)
 }
+
+
+##OPTIONAL VARIABLES
+variable "tenancy" {
+  description = "The tenancy of the instance. Must be one of: default or dedicated."
+  default     = "default"
+}
