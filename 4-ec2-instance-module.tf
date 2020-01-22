@@ -1,6 +1,6 @@
 module "ec2-instance" {
   source  = "app.terraform.io/fidelity_tfe_demo/ec2-instance/aws"
-  version = "2.13.0"
+  version = "3.0.0"
 
   name                   = var.project_name
   instance_count         = 1
