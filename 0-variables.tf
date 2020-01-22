@@ -6,6 +6,9 @@ variable "project_name" {
     description = "the name for this project or application"
 }
 
+variable "instance_type" {
+    description = "the AWS instance type"
+}
 
 variable "default_tags" {
   description = "Tags to be applied to resources"
